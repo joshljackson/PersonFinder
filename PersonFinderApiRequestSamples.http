@@ -1,0 +1,19 @@
+###
+
+GET http://localhost:5000/api/person/3
+
+###
+
+POST http://localhost:5000/api/person/search
+Content-Type: application/json
+
+{"SearchString":"m"}
+
+###
+
+POST http://localhost:5000/api/person
+Content-Type: application/json
+
+{"Name":"Darth Revan", "Age":25, "Address":"Korriban", "Interests": "Domination"}
+
+###

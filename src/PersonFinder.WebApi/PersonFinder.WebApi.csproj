@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonFinder.Contracts\PersonFinder.Contracts.csproj" />
+    <ProjectReference Include="..\PersonFinder.Data\PersonFinder.Data.csproj" />
+  </ItemGroup>
+
+
+</Project>
